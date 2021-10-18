@@ -1,0 +1,7 @@
+memset : 헤더파일로 string.h / memory.h
+memset(void* ptr, int value, size_t num);
+첫 번째 인자 : 변경하고자 하는 목적지의 첫 번째 주소
+두 번째 인자 : 변경값
+세 번째 인자 : 변경하는 길이
+단, memset은 1바이트 단위로 값을 초기화하므로 value는 0 또는 char만 가능
+보통 char배열의 값을 변경하거나 숫자배열을 0으로 초기화할 때 사용
