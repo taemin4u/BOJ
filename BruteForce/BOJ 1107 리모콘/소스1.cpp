@@ -24,7 +24,7 @@ int main() {
 	while (bbnum != 0) {
 		int tmp;
 		cin >> tmp;
-		button[tmp] = 1;
+		button[tmp] = 1;¤±
 		--bbnum;
 	}
 	for (int i = 0; i < 10; ++i) {
